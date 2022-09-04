@@ -19,7 +19,8 @@
     "lib:all": "webpack --config ./build/webpack.lib.prod.js",
     "lib:component": "webpack --config ./build/webpack.lib.prod.component.js",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash ./deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -38,7 +39,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
     "file-loader": "^6.2.0",
-    "node-sass": "^7.0.1",
+    "node-sass": "^5.0.0",
     "prettier": "^2.4.1",
     "sass-loader": "^10.1.1",
     "url-loader": "^4.1.1",
